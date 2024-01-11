@@ -1,0 +1,634 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url(../webfonts/Mulish/static/Mulish-Medium.ttf);
+}
+
+@font-face {
+    font-family:'Lexend';
+    src: url(../webfonts/Lexend/static/Lexend-Regular.ttf);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Kalnia';
+    src : url(../webfonts/Kalnia/static/Kalnia-Regular.ttf);
+}
+
+.root-setting {
+    font-size: 1.05em;
+    font-family: 'Mulish';
+}
+
+.link-hover:hover {
+    text-decoration: underline !important;
+}
+
+.header-setting {
+    background-color: #FF9575;
+    height : 75%;
+    z-index : -2;
+}
+
+.shadow-glass {
+    padding : 2rem;
+    margin-left: 3vw;
+    width : 85%;
+    border-radius: 10px;
+    box-shadow : 20px 20px 60px rgba(0, 0, 0, 0.39), 
+    inset 20px 20px 60px rgba(253, 252, 252, 0.336);
+    z-index : 5;
+}
+
+.custom-m-logo {
+    margin: 0vh 53vw 0vh 0vw;
+}
+
+.custom-fs-nav {
+    font-size: 0.85em;
+}
+
+.custom-register-position {
+    position: absolute;
+    top : 4vh;
+    right : 3vw;
+}
+
+.custom-m-menu {
+    margin: 0vh 5vw 0vh 0vw;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #9d9d9ed7;
+    padding : 15px;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #9d9d9ea2;
+}
+
+.custom-position {
+    position : absolute;
+}
+
+.bg-menu1, .bg-menu2 {
+    background-color: #4e4c5aee;
+    color: white;
+    z-index : 2;
+}
+
+.custom-img-header {
+    filter: brightness(.35) opacity(.95);
+    width : 100%;
+}
+
+.custom-lead-pos {
+    position: absolute;
+    top : 1vh;
+    left : -0.5vw;
+    z-index : 1;
+}
+
+.p3-fs-6 {
+    font-size: 0.7em;
+    line-height: 2.3vh;
+}
+
+.title-lead {
+    font-family: 'Kalnia';
+}
+
+.text-gray {
+    color: #4e4c5a;
+}
+
+.bg-gray {
+    background-color: #4e4c5a;
+    border: none;
+    outline: none;
+}
+
+.custom-discover {
+    padding : auto;
+}
+
+.custom-stat {
+    display: flex;
+    flex-direction: row;
+}
+
+.mt-9 {
+    margin-top: -0.5rem;
+}
+
+.ripple-effect {
+    position : absolute;
+    background-color : whitesmoke;
+    width : 60px;
+    height : 60px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    animation : scale 0.3s ease-in-out;
+}
+
+.custom-logo-brand {
+    width : 50px;
+}
+
+.custom-t-partner {
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.title-choose {
+    font-family: 'Kalnia';
+    font-size: 1.05em;
+}
+
+.custom-p-choose {
+    font-size: 0.85em;
+    width : 75%;
+    margin-left: 3rem;
+}
+
+.custom-p-reason {
+    font-size: 0.75em;
+}
+
+.custom-p-feature {
+    font-size: 0.85em;
+    width : 75%;
+    margin-left: 3rem;
+}
+
+.custom-ff {
+    background-color: #FF9575;
+    width : 75%;
+    margin-left: 6vw;
+    border-radius: 2rem;
+    padding-top: 0.5rem;
+    height: 2rem;
+}
+
+.custom-m-icon {
+    margin-left: -1.2rem;
+    margin-right: 1rem;
+}
+
+.custom-slide {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.205);
+    padding : 0.8rem;
+    border-radius: 50%;
+    cursor : pointer;
+}
+
+.custom-slide {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.205);
+    padding : 0.8rem;
+    border-radius: 50%;
+}
+
+.custom-slide:hover {
+    transform: scale(1.10);
+    color : white;
+    background-color: #FF9575;
+}
+
+.custom-slide:active {
+    transform: scale(.95);
+}
+
+#container-slide {
+    transition: transform 0.5s ease-in-out;
+}
+
+.btn-explore {
+    margin: 3.5vh 0vw 0vh 66vw;
+    background-color: #FF9575;
+    font-size: 0.85em; 
+}
+
+#container-rate {
+    transition: transform 0.4s ease-in-out;
+}
+
+.rate-title {
+    font-family: 'Kalnia';
+    font-size: 0.75em;
+    text-decoration: none;
+}
+
+.lead-rate {
+    font-size: 0.75em;
+    text-align: right;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+.flex-profile {
+    display: block;
+}
+
+.img-profile {
+    border : 1px solid #4E4C5A;
+    height : 3rem;
+    width  : 3rem;
+    border-radius: 50%;
+    margin: 0rem 0rem 1rem 1.6rem;
+}
+
+.img-user {
+    height : 2.8rem;
+    width  : 2.8rem;
+    border-radius: 50%;
+    margin-left: 0.05rem;
+}
+
+.p-rate {
+    font-size: 0.75em;
+}
+
+.local-rate {
+    font-size: 0.65em;
+}
+
+.section-setting {
+    background-color: #FF9575;
+    width : 90%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.315);
+    z-index : -1;
+}
+
+.title-about {
+    font-size: 1.1em;
+}
+
+.about-p {
+    font-size: 0.85em;
+}
+
+.p-about {
+    font-size: 0.9rem;
+}
+
+.bg-root {
+    background-color: #FF9575;
+}
+
+.custom-w-contact {
+    width : 75%;
+    margin : 3rem;
+}
+
+.title-contact {
+    font-family: 'Kalnia';
+    font-size: 1em;
+}
+
+.p-contact {
+    font-size: 0.7em;
+}
+
+
+@keyframes scale {
+    to {
+        transform: translate(-50%, -50%) scale(4);
+        opacity : .20;
+    }
+}
+
+@media (min-width : 360px) {
+    .custom-m-menu {
+        margin: 0vh 0vw 0vh 0vw;
+    }
+    .custom-m-logo {
+        margin: 0vh 48vw 0vh 2.5vw;
+        width : 85px;
+    }
+}
+
+@media (min-width : 440px) {
+    .custom-m-menu {
+        margin: 0vh 0vw 0vh 0vw;
+    }
+    .custom-m-logo {
+        margin: 0vh 48vw 0vh 2.5vw;
+        width : 85px;
+    }
+    .custom-register-position {
+        position: absolute;
+        top : 4vh;
+        right : -6vw;
+    }
+
+    .custom-lead-pos {
+        position: absolute;
+        top : 7vh;
+        left : -0.5vw;
+        z-index : 1;
+    }
+    .p3-fs-6 {
+        font-size: 0.85em;
+        line-height: 3vh;
+    }
+}
+
+@media (min-width : 440px) {
+    .custom-m-menu {
+        margin: 0vh 0vw 0vh 0vw;
+    }
+    .custom-m-logo {
+        margin: 0vh 48vw 0vh 2.5vw;
+        width : 95px;
+    }
+    .custom-register-position {
+        right : -12vw;
+    }
+    @media (min-width : 500px) {
+        .custom-m-menu {
+            margin: 0vh 0vw 0vh 0vw;
+        }
+        .custom-m-logo {
+            margin: 0vh 48vw 0vh 2.5vw;
+            width : 85px;
+        }
+        .custom-register-position {
+            position: absolute;
+            top : 4vh;
+            right : -6vw;
+        }
+    
+        .custom-lead-pos {
+            position: absolute;
+            top : 7vh;
+            left : -0.5vw;
+            z-index : 1;
+            width: 90%;
+        }
+        .p3-fs-6 {
+            font-size: 0.9em;
+            line-height: 3.5vh;
+            margin-top: 2rem;
+        }
+        .title-lead {
+            font-size : 1.5em;
+        }
+        .mt-9 {
+            margin-top: -0.8rem;
+        }
+        .custom-ff {
+            width : 85%;
+        }
+        .img-profile {
+            margin: 0rem 0rem 1rem 0rem;
+        }
+        .flex-profile {
+            display: flex;
+            flex-direction: row;
+        }
+        .local-rate {
+           font-size: 0.7em;
+        }
+    }
+}
+
+@media (min-width : 576px) {
+    .shadow-glass {
+       margin-left: 7vw;
+    }
+    .p3-fs-6 {
+        margin-top: 0vh;
+        font-size: 0.95em;
+        line-height: 3.4vh;
+    }
+    .custom-register-position {
+        right : -13vw;
+    }
+    .mt-9 {
+        margin-top: -0.9rem;
+    }
+    .custom-logo-brand {
+        width : 70px;
+    }
+    .custom-t-partner {
+        font-size: 1.2em;
+    }
+    .custom-p-choose {
+        margin-left: 5rem;
+    }
+    .custom-p-feature {
+        margin-left: 5rem;
+    }
+    .title-choose {
+        font-size: 1.15em;
+    }
+    .custom-ff {
+        width : 80%;
+        margin-left : 9vw;
+    }
+    .custom-m-icon {
+        margin-left: -1.8rem;
+    }
+    .btn-explore {
+        margin: 3.5vh 0vw 0vh 69.5vw;
+        background-color: #FF9575;
+        font-size: 0.9em; 
+        padding : 0.9rem 1.1rem;
+    } 
+    .lead-rate {
+        font-size: 0.85em;
+        width : 80%;
+        margin: 0rem 1rem 0rem 4rem;
+    } 
+    .custom-w-contact {
+        width : 85%;
+    }
+}
+
+@media (min-width : 768px) {
+    .shadow-glass {
+        padding : 2rem;
+        margin-left: 6vw;
+        margin-top: 4vh;
+        width : 85%;
+    }
+    .nav-pills .nav-link.active {
+        background-color: #4e4c5a;
+        padding : 15px;
+    }
+    .custom-m-logo {
+        margin-left: 5vw; 
+        width : 100px;
+    }
+    .custom-m-menu {
+        margin: auto;
+    }
+    .custom-position {
+        position : none;
+        margin-top: -2.5rem;
+        margin-left: -36vw;
+        font-size: 1.05em;
+    }
+    .custom-register-position {
+        top : 5.5vh;
+        right : -25vw;
+    }
+    .bg-menu1 {
+        background-color: transparent;
+    }
+    .custom-logo-brand {
+        width : 80px;
+    }
+    .custom-t-partner {
+        font-size: 1.3em;
+    }
+    .custom-ff {
+        width : 105%;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .btn-explore {
+        margin: 3.5vh 0vw 0vh 71vw;
+        background-color: #FF9575;
+        font-size: 1.05em; 
+        padding : 0.9rem 1.4rem;
+    }
+    .lead-rate {
+        font-size: 0.85em;
+        margin: 0rem 1rem 0rem 5.5rem;
+    } 
+    .rate-title, .p-rate {
+        font-size: 0.85em;
+    }
+    .local-rate {
+        font-size: 0.75em;
+     }
+     .p-about {
+        font-size: 0.7em;
+    }
+    .title-about {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width : 992px) {
+    .shadow-glass {
+        margin-left: 10.5vw;
+        padding : 3rem;
+        width : 80%;
+    }
+    .custom-m-logo {
+        margin-left: 9vw; 
+        width : 110px;
+    }
+    .custom-position {
+        margin-left: -27vw;
+    }
+    .p3-fs-6 {
+        margin-top: 3vh;
+        font-size: 0.95em;
+        line-height: 4vh;
+    }
+    .title-lead {
+        font-size : 1.7em;
+    }
+    .custom-register-position {
+        top : 5.5vh;
+        right : -23vw;
+    }
+    .mt-9 {
+        margin-top: -0.8rem;
+    }
+    .custom-logo-brand {
+        width : 90px;
+    }
+    .custom-t-partner {
+        font-size: 1.4em;
+    }
+    .custom-ff {
+        width : 110%;
+    }
+    .lead-rate {
+        font-size: 0.9em;
+        margin: 0rem -1rem 0rem 7rem;
+    }
+    .section-setting {
+        margin-left : 1.5rem;
+    } 
+    .p-about {
+        font-size: 0.85em;
+    }
+    .about-p {
+        font-size: 0.95em;
+    }
+}
+
+@media (min-width : 1200px) {
+    .shadow-glass {
+        margin-left: 17vw;
+        padding : 3rem;
+        width : 65%;
+    }
+    .custom-m-logo {
+        margin-left: 9vw; 
+        width : 120px;
+    }
+    .custom-fs-nav {
+        font-size: 0.95em;
+    }
+    .custom-logo-brand {
+        width : 100px;
+    }
+    .custom-t-partner {
+        font-size: 1.6em;
+    }
+    .custom-p-choose {
+        margin-left: 12rem;
+        text-align: center;
+        width : 65%;
+    }
+    .custom-ff {
+        margin-left: 3rem;
+        width : 85%;
+        margin-top: 2.2rem;
+        height : 2.5rem;
+    }
+    .custom-p-feature {
+        margin-left: 4rem;
+        font-size: 0.95em;
+    }
+    .custom-slide {
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.205);
+        padding : 1rem;
+        border-radius: 50%;
+    }
+    .btn-explore {
+        margin: 4.2vh 0vw 0vh 74.5vw;
+        background-color: #FF9575;
+        font-size: 1.05em; 
+        padding : 0.9rem 1.4rem;
+    }
+    .lead-rate {
+        font-size: 0.9em;
+        margin: 0rem -1rem 0rem 9rem;
+    }  
+    .section-setting {
+        width : 80%;
+        margin-left : 5rem;
+    }
+    .title-about {
+        font-size: 1.5em;
+    }
+    .p-about {
+        font-size: 0.85em;
+    }
+    .custom-w-contact {
+        width : 75%;
+        margin-left : 9.5rem;
+    }
+    .title-contact {
+        font-size: 1.25em;
+    }
+}
+

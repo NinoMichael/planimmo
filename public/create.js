@@ -18,5 +18,5 @@ register.addEventListener('click', function(e) {
      span.style.top = yInside + "px";
      span.style.left = xInside + "px";
      register.appendChild(span);
-     window.location.href = "";
+     window.location.href = "signup.html";
 });

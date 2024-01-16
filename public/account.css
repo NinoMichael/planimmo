@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url(../webfonts/Mulish/static/Mulish-Medium.ttf);
+}
+
+@font-face {
+    font-family:'Lexend';
+    src: url(../webfonts/Lexend/static/Lexend-Regular.ttf);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Kalnia';
+    src : url(../webfonts/Kalnia/static/Kalnia-Regular.ttf);
+}
+
+body {
+    background-color: #ff9575;
+    font-family: 'Mulish';
+}
+
+.custom-section {
+    background : transparent;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4),
+                inset 5px 5px 20px 5px rgba(253, 252, 252, 0.301);
+    width : 75%;
+    height : 20rem;
+    margin : 2.5rem 0rem 0rem 2.7rem;
+}
+
+.custom-block {
+    margin-left: -0.5rem;
+    margin-right: 0.5rem;
+    width: 100%;;
+}
+
+.title-lead {
+    font-family: 'Kalnia';
+}
+
+.form-setting {
+    font-size: 0.8em;
+}
+
+.form-setting2 {
+    width : 100vw;
+    font-size: 0.8em;
+}
+
+.bg-gray {
+    background-color: #4e4c5a;
+}
+
+.text-gray {
+    color : #4e4c5a;
+}
+
+.font-link {
+    font-size: 0.75em;
+    color : white;
+}
+
+.fs-btn {
+    font-size: 0.9em;
+}
+
+.image-holder {
+    width : 40%;
+    margin: 1rem 0rem 0rem 1rem;
+}
+
+.img-setting{
+    height : 250px;
+    width : 300px;
+}
+
+.loading-content {
+    overflow: hidden;
+    background-color:rgba(78, 77, 77, 0.904);
+    font-size: 0.9em;
+    height : 15vh;
+    width : 30%;
+}
+
+.custom-dialog {
+    font-size: 0.6em;
+    color : white;
+    height : 30vh;
+    width : 70%;
+    background-color:rgba(78, 77, 77, 0.904)
+}
+
+.p-lead {
+    font-size: 0.9em;
+    width : 75%;
+}
+
+.img-upload {
+    width : 110px;
+    height : 90px;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+    object-fit: cover;
+}
+
+.upload-icon {
+    z-index: 2;
+    font-weight: bold;
+    color : #4e4c5a;
+    top : 4.5rem;
+    right : 0.6rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.514);
+    cursor: pointer;
+}
+
+.upload-icon:active {
+    transform: scale(.93);
+}
+
+@media (min-width : 576px) {
+    .custom-section {
+        width : 60%;
+        margin : 4rem 0rem 0rem 7.5rem;
+    }
+    .form-setting, .form-setting2 {
+        font-size: 0.9em;
+    }
+    .font-link {
+        font-size: 0.8em;
+    }
+    .fs-btn {
+        font-size: 0.95em;
+    }
+    .loading-content {
+        font-size: 1.2em;
+        height : 18vh;
+        width : 40%;
+    }
+    .custom-dialog {
+        font-size: 0.8em;
+        height : 37vh;
+        width : 70%;
+    }
+}
+
+@media (min-width : 768px) {
+    .custom-section {
+        width : 85%;
+        height : 30rem;
+        margin : 1rem 0rem 0rem 4rem;
+    }
+    .form-setting {
+        font-size: 0.8em;
+    }
+    .form-setting2 {
+        width : 33vw;
+        font-size: 0.8em;
+    }
+    .loading-content {
+        font-size: 1.4em;
+        height : 18vh;
+        width : 40%;
+    }
+    .custom-dialog {
+        font-size: 0.9em;
+        height : 40vh;
+        width : 60%;
+    }
+}
+
+@media (min-width : 857px) {
+    .img-setting{
+        height : 250px;
+        width : 300px;
+    }
+    .image-holder {
+        width : 60%;
+    }
+}
+
+@media (min-width : 992px) {
+    .loading-content {
+        font-size: 1.4em;
+        height : 18vh;
+        width : 40%;
+    }
+    .custom-dialog {
+        overflow: hidden;
+        font-size: 0.9em;
+        height : 45vh;
+        width : 50%;
+    }
+    .form-setting2 {
+        width : 33.5vw;
+    }
+    .img-setting{
+        height : 250px;
+        width : 350px;
+    }
+    .image-holder {
+        width : 100%;
+    }
+    .custom-block {
+        margin-left: 0.3rem;
+    }
+}
+
+@media (min-width : 1200px) {
+    .image-holder {
+        width : 45%;
+        margin : 1rem 0rem 0rem 0rem;
+    }
+    .custom-section {
+        padding : 0rem 5rem;
+        width : 75%;
+        margin : -1rem 0rem 0rem 9.5rem;
+    }
+    .img-setting{
+        height : 250px;
+        width : 400px;
+    }
+    .p-lead {
+        font-size : 0.95em;
+        width : 100%;
+    }
+    .form-setting {
+        font-size: 1em;
+    }
+    .form-setting2 {
+        width : 28vw;
+        font-size: 1em;
+    }
+    .font-link {
+        font-size: 0.9em;
+    }
+    .fs-btn {
+        font-size: 1em;
+    }
+}
+
+@media (min-width : 1365px) {
+    .custom-block {
+        margin-left: 1.3rem;
+    }
+    .form-setting2 {
+        width : 28.5vw;
+    }
+}
+  
+  
+  

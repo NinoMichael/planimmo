@@ -1,4 +1,6 @@
+'use strict';
 
+const body = document.body;
 const button2 = document.getElementById('btn2');
 const register = document.getElementById('register');
 const slide = document.getElementById('container-slide');
@@ -95,6 +97,10 @@ const getStarted = document.getElementById('start');
          slide.style.transform = `translateX(${cardTranslate}%)`;
          }
    });
+
+about.addEventListener('click', function(){
+    body.style.backgroundColor = "black";
+});
 
 
    

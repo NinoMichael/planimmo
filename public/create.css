@@ -162,8 +162,8 @@ html {
 
 @media (min-width : 1360px) {
     .lead-font {
-        width : 70%;
-        margin-left: 4.5rem;
+        width : 60%;
+        margin-left: 6.4rem;
     }
     .margin-login {
         margin-right : -34rem;

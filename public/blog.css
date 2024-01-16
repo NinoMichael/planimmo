@@ -290,7 +290,6 @@ html {
     font-size: 0.7em;
 }
 
-
 @keyframes scale {
     to {
         transform: translate(-50%, -50%) scale(4);
@@ -471,7 +470,7 @@ html {
         font-size: 1.05em;
     }
     .custom-register-position {
-        top : 5.5vh;
+        top : 5vh;
         right : -25vw;
     }
     .bg-menu1 {

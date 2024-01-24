@@ -9,8 +9,8 @@ const cards = ["card1", "card2", "card3", "card4", "card5", "card6"].map(functio
 });
 const prev = document.getElementById('prev-btn');
 const next = document.getElementById('next-btn');
-const about = document.getElementById('about');
 const getStarted = document.getElementById('start');
+const exploreBtn = document.getElementById('explore-btn');
 
     button2.addEventListener('click', function (e) {
         const x = e.clientX;
@@ -65,6 +65,7 @@ const getStarted = document.getElementById('start');
          span.style.top = yInside + "px";
          span.style.left = xInside + "px";
          getStarted.appendChild(span);
+         window.location.href = "create.html";
     });
 
     //Card slide
@@ -98,12 +99,11 @@ const getStarted = document.getElementById('start');
          }
    });
 
-about.addEventListener('click', function(){
-    body.style.backgroundColor = "black";
-});
+exploreBtn.addEventListener('click', function() {
+    window.location.href = "explore.html";
+})
 
 
-   
 
 
    

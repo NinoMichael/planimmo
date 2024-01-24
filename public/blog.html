@@ -13,7 +13,7 @@
 </head>
 
 <body class = "root-setting">
-    <header class="header-setting">
+    <header id = "header-setting" class="header-setting">
       <div class="d-flex flex-row">
       <div class = "navbar navbar-expand-md d-flex flex-row-reverse d-md-flex flex-md-row">
         <img class="navbar-brand custom-m-logo" src="../image/logo.png" alt="Planimmo's logo" width="120px">
@@ -259,7 +259,7 @@
             </div>
         </div>
     </div>
-        <button class = "btn btn-explore" type="button">Explore more</button>
+        <button id = "explore-btn" class = "btn btn-explore" type="button">Explore more</button>
         </div>
     
     <section class = "mt-5 ms-4 ms-md-5 text-light">
@@ -287,13 +287,73 @@
                 centered around integrity, transparency and excellence. Our dedicated team, composed of passionate and skilled experts, is committed to providing exceptional real
                 services. Founded with the vision of redefining the real estate experience, Planimmo ensures open and honest communication, placing the needs of our clients at the heart
                 of every transaction. Whether you are looking for your dream home or aiming to sell the property, the Planimmo team is your trusted partner at every step of the process.</p>
-                <button id = "about" class="btn bg-gray about-p text-light ms-2 my-2 p-2 px-lg-3" type="button">Learn more</button>
+                <button id = "about" class="btn bg-gray about-p text-light ms-2 my-2 p-2 px-lg-3" type="button" data-bs-toggle="modal" data-bs-target="#company-work">Learn more</button>
                 </div>
 
-                <div class="d-block position-absolute">
-                    <h3 class = "h4 text-light">How our company works ?</h2>
-                    <div class = "col-12">
-
+                <div id = "company-work" class="modal ms-5 ms-md-0">
+                    <div class="modal-dialog text-dark">
+                        <div class="modal-content custom-modal pe-4 ps-5 ps-md-4">
+                            <div class="modal-body">
+                                <div>
+                                    <h2 class="d-block d-lg-none h6 modal-title text-center title-lead mb-3">How company works ?</h2>
+                                    <h2 class="d-none d-lg-block h5 modal-title text-center title-lead">How company works ?</h2>
+                                </div>
+                                <div class = "mt-md-4 mb-3 mb-lg-4 d-md-flex flex-md-row justify-content-md-between">
+                                    <article class = "col-md-6 mt-lg-4 mt-xl-5">
+                                        <h3 class="h6 fw-bolder">Property Acquisition and Listing</h3>
+                                        <p class = "p-rate">Planimmo's process begins with the acquisition of diverse properties across prime locations. The agency carefully assesses each property's market value, potential for appreciation, and overall appeal. Once a property meets Planimmo's rigorous criteria, it is meticulously listed in the agency's portfolio.</p>
+                                    </article>
+                                    <div class = "col-md-5 mt-md-3">
+                                        <img class = "img-fluid" src="../image/work1.png" alt="Picture of company work">
+                                    </div>
+                                </div>
+                                <div class = "mb-3 mb-lg-4 d-md-flex flex-md-row-reverse justify-content-md-between">
+                                    <article class = "col-md-6 mt-lg-4 mt-xl-5">
+                                        <h3 class="h6 fw-bolder">Marketing Strategies</h3>
+                                        <p class = "p-rate">To maximize visibility and attract potential buyers, Planimmo employs innovative marketing strategies. This includes professional photography, virtual tours, and targeted online and offline advertising campaigns. The goal is to showcase each property's unique features and position it effectively in the competitive real estate market.</p>
+                                    </article>
+                                    <div class = "col-md-5 mt-md-3">
+                                        <img class = "img-fluid" src="../image/work2.jpg" alt="Picture of company work">
+                                    </div>
+                                </div>
+                                <div class = "mt-md-4 mb-3 mb-lg-4 d-md-flex flex-md-row justify-content-md-between">
+                                    <article class = "col-md-6 mt-lg-4 mt-xl-5">
+                                        <h3 class="h6 fw-bolder"> Client Interaction and Consultation</h3>
+                                        <p class = "p-rate">Planimmo values client satisfaction and prioritizes personalized service. When potential buyers express interest, the agency's experienced agents engage in consultations to understand their specific requirements. Likewise, sellers benefit from expert advice on pricing strategies and market trends to optimize their property listings.</p>
+                                    </article>
+                                    <div class = "col-md-5 mt-md-3">
+                                        <img class = "img-fluid" src="../image/work.png" alt="Picture of company work">
+                                    </div>
+                                </div>
+                                <div class = "mb-3 mb-lg-4 d-md-flex flex-md-row-reverse justify-content-md-between">
+                                    <article class = "col-md-6 mt-lg-4 mt-xl-5">
+                                        <h3 class="h6 fw-bolder">Property Visits and Inspections</h3>
+                                        <p class = "p-rate">Facilitating property visits is a crucial aspect of Planimmo's operations. The agency coordinates and conducts tours for interested buyers, ensuring a comprehensive understanding of the property's attributes. Additionally, rigorous inspections are carried out to address any concerns and provide clients with transparent information.</p>
+                                    </article>
+                                    <div class = "col-md-5 mt-md-3">
+                                        <img class = "img-fluid" src="../image/work4.png" alt="Picture of company work">
+                                    </div>
+                                </div>
+                                <div class = "mt-md-4 mb-3 mb-lg-4 d-md-flex flex-md-row justify-content-md-between">
+                                    <article class = "col-md-6 mt-lg-4 mt-xl-5">
+                                        <h3 class="h6 fw-bolder">Negociation and Contract Finalization</h3>
+                                        <p class = "p-rate">Once a buyer expresses interest, Planimmo's skilled negotiators step in to facilitate fair and favorable deals. The agency navigates the intricate process of offer and counteroffer, working towards a mutually beneficial agreement. Following successful negotiations, the team assists in finalizing contracts and legal documentation.</p>
+                                    </article>
+                                    <div class = "col-md-5 mt-md-3">
+                                        <img class = "img-fluid" src="../image/work5.png" alt="Picture of company work">
+                                    </div>
+                                </div>
+                                <div class = "mb-3 mb-lg-4 d-md-flex flex-md-row-reverse justify-content-md-between">
+                                    <article class = "col-md-6 mt-lg-4 mt-xl-5">
+                                        <h3 class="h6 fw-bolder">Post-Sale Services</h3>
+                                        <p class = "p-rate">Planimmo's commitment extends beyond the transaction phase. The agency provides post-sale support, guiding clients through the closing process, coordinating with legal entities, and ensuring a smooth transition for both buyers and sellers.</p>
+                                    </article>
+                                    <div class = "col-md-5 mt-md-3">
+                                        <img class = "img-fluid" src="../image/work6.png" alt="Picture of company work">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
            </div>
@@ -491,15 +551,15 @@
             <div class="col-4 ms-4 ms-sm-0 me-sm-3">
                 <h3 class = "h6">Services</h3>
                 <ul class = "list-unstyled">
-                    <li><a class = "text-light" href="" style = "text-decoration: none;">Estate market</a></li>
+                    <li><a class = "text-light" href="../public/explore.html" style = "text-decoration: none;">Estate market</a></li>
                     <li><a class = "text-light" href="" style = "text-decoration: none;">Blog</a></li>
-                    <li><a class = "text-light" href="" style = "text-decoration: none;">Sell</a></li>
+                    <li><a class = "text-light" href="../public/sell.html" style = "text-decoration: none;">Sell</a></li>
                 </ul>
             </div>
             <div class="col-4 me-sm-3">
                 <h3 class = "h6">Company</h3>
                 <ul class = "list-unstyled">
-                    <li><a class = "text-light" href="" style = "text-decoration: none;">Company work</a></li>
+                    <li><a class = "text-light" href="../public/blog.html#aboutUs" style = "text-decoration: none;">Company work</a></li>
                     <li><a class = "text-light" href="" style = "text-decoration: none;">Privacy policy</a></li>
                     <li><a class = "text-light" href="" style = "text-decoration: none;">Security</a></li>
                 </ul>
@@ -507,8 +567,8 @@
             <div class="col-4">
                 <h3 class = "h6">Support</h3>
                 <ul class = "list-unstyled">
-                    <li><a class = "text-light" href="" style = "text-decoration: none;">About us</a></li>
-                    <li><a class = "text-light" href="" style = "text-decoration: none;">Contact</a></li>
+                    <li><a class = "text-light" href="../public/blog.html#aboutUs" style = "text-decoration: none;">About us</a></li>
+                    <li><a class = "text-light" href="../public/blog.html#contactUs" style = "text-decoration: none;">Contact</a></li>
                 </ul>
             </div>
         </div>

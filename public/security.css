@@ -1,0 +1,294 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url(../webfonts/Mulish/static/Mulish-Medium.ttf);
+}
+
+@font-face {
+    font-family:'Lexend';
+    src: url(../webfonts/Lexend/static/Lexend-Regular.ttf);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Kalnia';
+    src : url(../webfonts/Kalnia/static/Kalnia-Regular.ttf);
+}
+
+.root-setting {
+    font-size: 1.05em;
+    font-family: 'Mulish';
+}
+
+.header-setting {
+    background-color: #FF9575;
+    height : 75%;
+    z-index : -2;
+    padding-bottom : 2.5rem;
+}
+
+.shadow-glass {
+    padding : 2rem;
+    margin-left: 3vw;
+    width : 85%;
+    border-radius: 10px;
+    box-shadow : 20px 20px 60px rgba(0, 0, 0, 0.39), 
+    inset 20px 20px 60px rgba(253, 252, 252, 0.336);
+    z-index : 5;
+}
+
+.custom-m-logo {
+    margin: 0vh 53vw 0vh 0vw;
+}
+
+.custom-m-menu {
+    margin: 0vh 5vw 0vh 0vw;
+}
+
+.custom-fs-nav {
+    font-size: 0.85em;
+}
+
+.custom-lead-pos {
+    position: absolute;
+    top : 1.5vh;
+    left : -0.5vw;
+    z-index : 1;
+}
+
+.p3-fs-6 {
+    font-size: 0.85em;
+}
+
+.title-lead {
+    font-family: 'Kalnia';
+}
+
+.custom-register-position {
+    position: absolute;
+    top : 4vh;
+    right : 3vw;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #9d9d9ed7;
+    padding : 15px;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #9d9d9ea2;
+}
+
+.custom-position {
+    position : absolute;
+}
+
+.bg-menu1, .bg-menu2 {
+    background-color: #4e4c5aee;
+    color: white;
+    z-index : 2;
+}
+
+.custom-img-header {
+    filter: brightness(.35) opacity(.95);
+    width : 100%;
+}
+
+.bg-gray {
+    background-color: #4e4c5a;
+}
+
+.bg-root {
+    background-color: #FF9575;
+    margin: 3rem 2.5rem;
+}
+
+.p-secure {
+    font-size: 0.85em;
+}
+
+.ripple-effect {
+    position : absolute;
+    background-color : whitesmoke;
+    width : 60px;
+    height : 60px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    animation : scale 0.3s ease-in-out;
+}
+
+@keyframes scale {
+    to {
+        transform: translate(-50%, -50%) scale(4);
+        opacity : .20;
+    }
+}
+
+@media (min-width : 360px) {
+    .custom-m-menu {
+        margin: 0vh 0vw 0vh 0vw;
+    }
+    .custom-m-logo {
+        margin: 0vh 48vw 0vh 2.5vw;
+        width : 85px;
+    }
+}
+
+@media (min-width : 440px) {
+    .custom-m-menu {
+        margin: 0vh 0vw 0vh 0vw;
+    }
+    .custom-m-logo {
+        margin: 0vh 48vw 0vh 2.5vw;
+        width : 95px;
+    }
+    .custom-register-position {
+        right : -12vw;
+    }
+    .custom-register-position {
+        position: absolute;
+        top : 4vh;
+        right : -6vw;
+    }
+    .custom-lead-pos {
+        position: absolute;
+        top : 7vh;
+        left : -0.5vw;
+        z-index : 1;
+    }
+}
+
+@media (min-width : 500px) {
+    .custom-m-menu {
+        margin: 0vh 0vw 0vh 0vw;
+    }
+    .custom-m-logo {
+        margin: 0vh 48vw 0vh 2.5vw;
+        width : 85px;
+    }
+    .custom-register-position {
+        position: absolute;
+        top : 4vh;
+        right : -6vw;
+    }
+
+    .custom-lead-pos {
+        position: absolute;
+        top : 7vh;
+        left : -0.5vw;
+        z-index : 1;
+        width: 90%;
+    }
+    .p3-fs-6 {
+        font-size: 1.1em;
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width : 576px) {
+    .shadow-glass {
+       margin-left: 7vw;
+    }
+    .p3-fs-6 {
+        margin-top: 0vh;
+        font-size: 0.95em;
+        line-height: 3.4vh;
+    }
+    .custom-register-position {
+        right : -13vw;
+    }
+}
+
+@media (min-width : 768px) {
+    .shadow-glass {
+        padding : 2rem;
+        margin-left: 6vw;
+        margin-top: 4vh;
+        width : 85%;
+    }
+    .nav-pills .nav-link.active {
+        background-color: #4e4c5a;
+        padding : 15px;
+    }
+    .custom-m-logo {
+        margin-left: 5vw; 
+        width : 100px;
+    }
+    .custom-m-menu {
+        margin: auto;
+    }
+    .custom-position {
+        position : none;
+        margin-top: -2.5rem;
+        margin-left: -36vw;
+        font-size: 1.05em;
+    }
+    .custom-register-position {
+        top : 5vh;
+        right : -25vw;
+    }
+    .bg-menu1 {
+        background-color: transparent;
+    }
+    .bg-root {
+        width : 75%;
+        margin: 3rem 6.5rem;
+    }
+    .p-secure {
+        font-size: 0.95em;
+    }
+}
+
+@media (min-width : 992px) {
+    .shadow-glass {
+        margin-left: 10.5vw;
+        padding : 3rem;
+        width : 80%;
+    }
+    .custom-m-logo {
+        margin-left: 9vw; 
+        width : 110px;
+    }
+    .custom-position {
+        margin-left: -27vw;
+    }
+    .p3-fs-6 {
+        margin-top: 3vh;
+        font-size: 1.2em;
+        line-height: 5vh;
+    }
+    .custom-register-position {
+        top : 5.5vh;
+        right : -23vw;
+    }
+    .bg-root {
+        width : 65%;
+        margin: 4rem 11.5rem;
+    }
+}
+
+@media (min-width : 1200px) {
+    .shadow-glass {
+        margin-left: 17vw;
+        padding : 3rem;
+        width : 65%;
+    }
+    .custom-m-logo {
+        margin-left: 9vw; 
+        width : 120px;
+    }
+    .custom-fs-nav {
+        font-size: 0.95em;
+    }
+    .p-secure {
+        font-size: 1.05em;
+    }
+}
+
+@media (min-width : 1365px) {
+    .p3-fs-6 {
+        margin-top: 2.5rem;
+    }
+}

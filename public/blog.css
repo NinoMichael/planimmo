@@ -286,6 +286,11 @@ html {
     font-size: 1em;
 }
 
+.custom-modal {
+    width : 85vw;
+    right : 3rem;
+}
+
 .p-contact {
     font-size: 0.7em;
 }
@@ -313,7 +318,10 @@ html {
     }
     .custom-m-logo {
         margin: 0vh 48vw 0vh 2.5vw;
-        width : 85px;
+        width : 95px;
+    }
+    .custom-register-position {
+        right : -12vw;
     }
     .custom-register-position {
         position: absolute;
@@ -333,62 +341,50 @@ html {
     }
 }
 
-@media (min-width : 440px) {
+@media (min-width : 500px) {
     .custom-m-menu {
         margin: 0vh 0vw 0vh 0vw;
     }
     .custom-m-logo {
         margin: 0vh 48vw 0vh 2.5vw;
-        width : 95px;
+        width : 85px;
     }
     .custom-register-position {
-        right : -12vw;
+        position: absolute;
+        top : 4vh;
+        right : -6vw;
     }
-    @media (min-width : 500px) {
-        .custom-m-menu {
-            margin: 0vh 0vw 0vh 0vw;
-        }
-        .custom-m-logo {
-            margin: 0vh 48vw 0vh 2.5vw;
-            width : 85px;
-        }
-        .custom-register-position {
-            position: absolute;
-            top : 4vh;
-            right : -6vw;
-        }
-    
-        .custom-lead-pos {
-            position: absolute;
-            top : 7vh;
-            left : -0.5vw;
-            z-index : 1;
-            width: 90%;
-        }
-        .p3-fs-6 {
-            font-size: 0.9em;
-            line-height: 3.5vh;
-            margin-top: 2rem;
-        }
-        .title-lead {
-            font-size : 1.5em;
-        }
-        .mt-9 {
-            margin-top: -0.8rem;
-        }
-        .custom-ff {
-            width : 85%;
-        }
-        .img-profile {
-            margin: 0rem 0rem 1rem 0rem;
-        }
-        .flex-profile {
-            display: flex;
-            flex-direction: row;
-        }
-        .local-rate {
-           font-size: 0.7em;
-        }
+
+    .custom-lead-pos {
+        position: absolute;
+        top : 7vh;
+        left : -0.5vw;
+        z-index : 1;
+        width: 90%;
+    }
+    .p3-fs-6 {
+        font-size: 0.9em;
+        line-height: 3.5vh;
+        margin-top: 2rem;
+    }
+    .title-lead {
+        font-size : 1.5em;
+    }
+    .mt-9 {
+        margin-top: -0.8rem;
+    }
+    .custom-ff {
+        width : 85%;
+    }
+    .img-profile {
+        margin: 0rem 0rem 1rem 0rem;
+    }
+    .flex-profile {
+        display: flex;
+        flex-direction: row;
+    }
+    .local-rate {
+        font-size: 0.7em;
     }
 }
 
@@ -509,6 +505,10 @@ html {
     .title-about {
         font-size: 1.2em;
     }
+    .custom-modal {
+        width : 85vw;
+        right : 5rem;
+    }
 }
 
 @media (min-width : 992px) {
@@ -560,6 +560,10 @@ html {
     }
     .about-p {
         font-size: 0.95em;
+    }
+    .custom-modal {
+        width : 80vw;
+        right : 8rem;
     }
 }
 
@@ -628,6 +632,16 @@ html {
     }
     .title-contact {
         font-size: 1.25em;
+    }
+    .custom-modal {
+        width : 70vw;
+        right : 9.5rem;
+    }
+}
+
+@media (min-width: 1365px) {
+    .custom-modal {
+        right : 11.5rem;
     }
 }
 

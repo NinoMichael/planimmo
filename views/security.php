@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planimmo - Security</title>
-    <link rel="stylesheet" href="../bootstrap/BootCss/bootstrap.css">
-    <script defer src="../bootstrap/BootJs/bootstrap.bundle.js"></script>
-    <link rel="stylesheet" href="../fontawesome/all.css">
-    <link rel="stylesheet" href="../fontawesome/brands.css">
-    <link rel="stylesheet" href="../public/security.css">
+    <link rel="stylesheet" href="bootstrap/BootCss/bootstrap.css">
+    <script defer src="bootstrap/BootJs/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="fontawesome/all.css">
+    <link rel="stylesheet" href="fontawesome/brands.css">
+    <link rel="stylesheet" href="views/security.css">
 
 </head>
 
@@ -16,7 +16,7 @@
     <header id = "header-setting" class="header-setting">
         <div class="d-flex flex-row">
         <div class = "navbar navbar-expand-md d-flex flex-row-reverse d-md-flex flex-md-row">
-          <img class="navbar-brand custom-m-logo" src="../image/logo.png" alt="Planimmo's logo" width="120px">
+          <img class="navbar-brand custom-m-logo" src="image/logo.png" alt="Planimmo's logo" width="120px">
           <div class="ms-auto navbar-dark position-relative custom-m-menu">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-content"
                   aria-controls="menu-content" aria-expanded="false" aria-label="Toggle Navigation">
@@ -26,10 +26,10 @@
                   <nav class="p-4 navbar-nav nav-pills justify-content-center collapse-md navbar-md-collapse 
                   custom-position bg-menu1"
                   id="menu-content">
-                     <a class="nav-item custom-fs-nav nav-link text-light" href="../index.html">Home</a>
-                     <a class="ms-md-4 custom-fs-nav nav-item nav-link text-light" href="explore.html">Explore</a>
-                     <a class="ms-md-4 custom-fs-nav nav-item nav-link text-light active" href="../public/blog.html">Blog</a>
-                     <a class="ms-md-4 custom-fs-nav nav-item nav-link text-light" href="../public/blog.html#contactUs">Support</a>
+                     <a class="nav-item custom-fs-nav nav-link text-light" href="home">Home</a>
+                     <a class="ms-md-4 custom-fs-nav nav-item nav-link text-light" href="explore">Explore</a>
+                     <a class="ms-md-4 custom-fs-nav nav-item nav-link text-light active" href="blog">Blog</a>
+                     <a class="ms-md-4 custom-fs-nav nav-item nav-link text-light" href="blog#contactUs">Support</a>
                   </nav>
   
            </div>
@@ -40,7 +40,7 @@
          </div>
   
          <div class = "position-relative mx-3 d-block d-sm-none">
-            <img class = "custom-img-header rounded" src="../image/house-secure.jpg" alt="Photo of secure modern building">
+            <img class = "custom-img-header rounded" src="image/house-secure.jpg" alt="Photo of secure modern building">
             <div class="custom-lead-pos mt-3 px-5">
                 <p class = "p3-fs-6 text-light">At <span class = "title-lead">Planimmo</span>, we prioritize the security of your information to ensure a safe and trustworthy online experience. Our commitment extends to implementing robust security measures, and we want
                     to keep you informed about the steps we take to protect your data.
@@ -54,7 +54,7 @@
                 to keep you informed about the steps we take to protect your data.<p>
             </div>
             <div class="col-sm-6 col-lg-7">
-                <img class = "img-fluid rounded ms-sm-4 mt-sm-4 ms-md-5 h-75" src="../image/house-secure.jpg" alt="Photo of secure modern building">
+                <img class = "img-fluid rounded ms-sm-4 mt-sm-4 ms-md-5 h-75" src="image/house-secure.jpg" alt="Photo of secure modern building">
             </div>
          </div>
       </header>
@@ -64,14 +64,14 @@
             <div class = "d-md-flex flex-md-row justify-content-md-between">
                 <div class = "col-md-6">
                     <h3 id = "privacy" class = "d-block d-lg-none h5 title-lead">Privacy policy</h3>
-                    <h3 class = "d-none d-lg-block h4 title-lead mt-3 mb-xl-2">Privacy policy</h3>
+                    <h3 id = "privacy" class = "d-none d-lg-block h4 title-lead mt-3 mb-xl-2">Privacy policy</h3>
                     <p class = "d-block d-xl-none fs-6">We adhere to a comprehensive Privacy Policy that outlines how we collect, store, and use user information. This poilicy is designed to meet the highest standards of privacy protection, 
                         giving you confidence in the handling of your personal data</p>
                         <p class = "d-none d-xl-block fs-5 col-xl-11">We adhere to a comprehensive Privacy Policy that outlines how we collect, store, and use user information. This poilicy is designed to meet the highest standards of privacy protection, 
                             giving you confidence in the handling of your personal data</p>
                     <button id = "contact" class = "d-none d-md-block mt-3 btn bg-gray text-light mt-xl-4 px-xl-4 py-xl-2" type="button">Learn more</button>
                 </div>
-                <img class = "img-fluid col-md-5" src="../image/privacy.jpg" alt="Picture of secure real estate">
+                <img class = "img-fluid col-md-5" src="image/privacy.jpg" alt="Picture of secure real estate">
             </div>
             <button class = "d-block d-md-none mt-3 btn bg-gray text-light" type="button">Learn more</button>
         </div>
@@ -84,7 +84,7 @@
                     <p class = "d-none d-xl-block fs-5 col-xl-11">Your data's safety is paramount, and to achieve this, all information shared on Planimmo is encrypted using state-of-the-art encryption technologies. This encryption process ensures that
                         your data remains confidential during transmission, safeguarding it from unauthorized access.</p>
             </div>
-            <img class = "img-fluid col-md-5" src="../image/data-encryption.png" alt="Picture of secure real estate">
+            <img class = "img-fluid col-md-5" src="image/data-encryption.png" alt="Picture of secure real estate">
         </div>
         <div class = "mx-4 mt-5 mx-md-5 d-md-flex flex-md-row justify-content-md-between">
             <div class = "col-md-6">
@@ -95,7 +95,7 @@
                 <p class = "d-none d-xl-block fs-5 col-xl-11">Our website incorporates advanced security measures to counteract online threats such as malware, denial-of-service attacks, and intrusion attempts. We continuously monitor for suspicious 
                     activities to maintain a secure browsing environment for our users.</p>
             </div>
-            <img class = "img-fluid col-md-5" src="../image/online-threat.jpg" alt="Picture of secure real estate">
+            <img class = "img-fluid col-md-5" src="image/online-threat.jpg" alt="Picture of secure real estate">
         </div>
         <div class = "mx-4 mt-5 mx-md-5 d-md-flex flex-md-row-reverse justify-content-md-between">
             <div class = "col-md-6">
@@ -106,7 +106,7 @@
                 <p class = "d-none d-xl-block fs-5 col-xl-11">Access to your Planimmo account is fortified with secure authentification methods. Beyond traditional credentials, additional verification techniques are employed to ensure that only 
                     authorized individuals can access your information, enhancing the overall security of your account.</p>
             </div>
-            <img class = "img-fluid col-md-5" src="../image/secure-auth.png" alt="Picture of secure real estate">
+            <img class = "img-fluid col-md-5" src="image/secure-auth.png" alt="Picture of secure real estate">
         </div>
         <div class = "mx-4 mt-5 mx-md-5 d-md-flex flex-md-row justify-content-md-between">
             <div class = "col-md-6">
@@ -117,7 +117,7 @@
                 <p class = "d-none d-xl-block fs-5 col-xl-11">We are proactive in maintaining our technological infrastructure by regularly applying the latest security patches. This ongoing effort ensures that our site stays ahead of 
                     potential vulnerabilities, providing you with a consistently secure online environment.</p>
             </div>
-           <img class = "img-fluid col-md-5" src="../image/secure-update.png" alt="Picture of secure real estate">
+           <img class = "img-fluid col-md-5" src="image/secure-update.png" alt="Picture of secure real estate">
         </div>
         <div class = "mx-4 mt-5 mx-md-5 d-md-flex flex-md-row-reverse justify-content-md-between">
             <div class = "col-md-6">
@@ -128,7 +128,7 @@
                 <p class = "d-none d-xl-block fs-5 col-xl-11">Your privacy is of utmost importance to us. We commit to not sharing your personal information with third parties without your explicit consent. Your data remains confidential
                 and is utilized solely for the purposes you have chosen, reinforcing our dedication to protecting your privacy.</p>
             </div>
-            <img class = "img-fluid col-md-5" src="../image/commit-privacy.png" alt="Picture of secure real estate">
+            <img class = "img-fluid col-md-5" src="image/commit-privacy.png" alt="Picture of secure real estate">
         </div>
         <div class = "mx-4 mt-5 mx-md-5 d-md-flex flex-md-row justify-content-md-between">
             <div class = "col-md-6">
@@ -139,7 +139,7 @@
                 <p class = "d-none d-xl-block fs-5 col-xl-11">In addition to our security measures, we offer practical tips to users for creating strong passwords, managing account information, and raising awareness about potential online threats. Educating
                     our users on security best practices is a key aspect of our commitment to their safety.</p>
             </div>
-           <img class = "img-fluid col-md-5" src="../image/security-tips.png" alt="Picture of secure real estate">
+           <img class = "img-fluid col-md-5" src="image/security-tips.png" alt="Picture of secure real estate">
         </div>
         <div class = "mx-4 mt-5 mx-md-5 d-md-flex flex-md-row-reverse justify-content-md-between">
             <div class = "col-md-6">
@@ -150,7 +150,7 @@
                 <p class = "d-none d-xl-block fs-5 col-xl-11">For transparency, we maintain a comprehensive list of recent security updates performed on our site. This serves as a testament to our ongoing commitment to strenghtening the security
                     features of Planimmo.</p>
             </div>
-           <img class = "img-fluid col-md-5" src="../image/security-update.png" alt="Picture of secure real estate">
+           <img class = "img-fluid col-md-5" src="image/security-update.png" alt="Picture of secure real estate">
         </div>
         <div class = "mx-4 mt-5 mx-md-5 d-md-flex flex-md-row justify-content-md-between">
             <div class = "col-md-6">
@@ -161,7 +161,7 @@
                 <p class = "d-none d-xl-block fs-5 col-xl-11">Should you have any security-related questions or wish to report any concerns, our dedicated security support team is here to assist you. We encourage open communication and value your feedback in
                     ensuring a secure user experience.</p>
             </div>
-            <img class = "img-fluid col-md-5" src="../image/security-support.png" alt="Picture of secure real estate">
+            <img class = "img-fluid col-md-5" src="image/security-support.png" alt="Picture of secure real estate">
         </div>
         <div class = "mx-4 mt-5 mx-md-5 ">
             <div class = "d-md-flex flex-md-row-reverse justify-content-md-between">
@@ -174,7 +174,7 @@
                         recognized benchmarks.</p>
                     <button class = "d-none d-md-block btn bg-gray text-light mt-3 mt-xl-4 px-xl-4 py-xl-2 overflow-hidden position-relative" type="button">Contact us</button>
                 </div>
-                <img class = "img-fluid col-md-5" src="../image/certificate.png" alt="Picture of secure real estate">
+                <img class = "img-fluid col-md-5" src="image/certificate.png" alt="Picture of secure real estate">
             </div>
             <button class = "d-block d-md-none btn bg-gray text-light mt-3 overflow-hidden position-relative" type="button">Contact us</button>
         </div>
@@ -185,7 +185,7 @@
 
     <footer class = "modal-footer bg-dark text-light d-sm-flex flex-sm-row mt-lg-0">
         <div class= "col-12 d-flex float-none justify-content-between flex-sm-column col-sm-5 me-sm-2">
-            <img class = "ms-3 mt-2" src="../image/logo.png" alt="Logo de Planimmo" style="width : 90px; height : 60px;">
+            <img class = "ms-3 mt-2" src="image/logo.png" alt="Logo de Planimmo" style="width : 90px; height : 60px;">
             <p style="font-size: 0.75em; width : 60%;">The trusted real estate agency providing expertise, transparency and exceptional service in every transaction. Your reliable real estate partner</p>
         </div>
 
@@ -193,24 +193,24 @@
             <div class="col-4 ms-4 ms-sm-0 me-sm-3">
                 <h3 class = "h6">Services</h3>
                 <ul class = "list-unstyled">
-                    <li><a class = "text-light" href="../public/explore.html" style = "text-decoration: none;">Estate market</a></li>
-                    <li><a class = "text-light" href="../public/blog.html" style = "text-decoration: none;">Blog</a></li>
-                    <li><a class = "text-light" href="../public/sell.html" style = "text-decoration: none;">Sell</a></li>
+                    <li><a class = "text-light" href="explore" style = "text-decoration: none;">Estate market</a></li>
+                    <li><a class = "text-light" href="blog" style = "text-decoration: none;">Blog</a></li>
+                    <li><a class = "text-light" href="sell" style = "text-decoration: none;">Sell</a></li>
                 </ul>
             </div>
             <div class="col-4 me-sm-3">
                 <h3 class = "h6">Company</h3>
                 <ul class = "list-unstyled">
-                    <li><a class = "text-light" href="../public/blog.html#aboutUs" style = "text-decoration: none;">Company work</a></li>
-                    <li><a class = "text-light" href="" style = "text-decoration: none;">Privacy policy</a></li>
+                    <li><a class = "text-light" href="blog#aboutUs" style = "text-decoration: none;">Company work</a></li>
+                    <li><a class = "text-light" href="privacy" style = "text-decoration: none;">Privacy policy</a></li>
                     <li><a class = "text-light" href="" style = "text-decoration: none;">Security</a></li>
                 </ul>
             </div>
             <div class="col-4">
                 <h3 class = "h6">Support</h3>
                 <ul class = "list-unstyled">
-                    <li><a class = "text-light" href="../public/blog.html#aboutUs" style = "text-decoration: none;">About us</a></li>
-                    <li><a class = "text-light" href="../public/blog.html#contactUs" style = "text-decoration: none;">Contact</a></li>
+                    <li><a class = "text-light" href="blog#aboutUs" style = "text-decoration: none;">About us</a></li>
+                    <li><a class = "text-light" href="blog#contactUs" style = "text-decoration: none;">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -236,6 +236,6 @@
         </div>
      </footer>
 
-     <script src="../public/security.js"></script>
+     <script src="security.js"></script>
 </body>
 </html>

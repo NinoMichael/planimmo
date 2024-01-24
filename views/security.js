@@ -19,7 +19,7 @@ register.addEventListener('click', function(e) {
     span.style.top = yInside + "px";
     span.style.left = xInside + "px";
     register.appendChild(span);
-    window.location.href = "create.html";
+    window.location.href = "explore";
 })
 
 contact.addEventListener('click', function() {
@@ -39,5 +39,5 @@ contact.addEventListener('click', function() {
     span.style.left = xInside + "px";
     contact.appendChild(span);
     contact.style.transform = "scale(.95)";
-    window.location.href = "blog.html";
+    window.location.href = "blog";
 })

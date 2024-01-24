@@ -74,7 +74,7 @@ submit.addEventListener('click', function() {
            },
         }).then((result) => {
             if(result.isConfirmed) {
-                window.location.href = "signin.html";
+                window.location.href = "login";
             }
         });
     }, 2000);

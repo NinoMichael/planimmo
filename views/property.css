@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url(../webfonts/Mulish/static/Mulish-Medium.ttf);
+}
+
+@font-face {
+    font-family:'Lexend';
+    src: url(../webfonts/Lexend/static/Lexend-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Kalnia';
+    src : url(../webfonts/Kalnia/static/Kalnia-Regular.ttf);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.root-setting {
+    font-family: 'Mulish', 'Arial';
+    font-size: 1em;
+    background-color: #4e4c5a;
+}
+
+.bg-explore {
+    background-image: url(../image/header-house.jpg);
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #4e4c5a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height : 40vh;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #4e4c5ad7;
+    padding : 5px;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #a6a6a871;
+}
+
+.custom-m-logo {
+    margin : -10vh 50vw 5vh -5vw;
+    width : 90px;
+}
+
+.bg-menu {
+    background-color: rgba(245, 245, 245, 0.959);
+    box-shadow : -1px -2px 5px 0px rgba(0, 0, 0, 0.219) inset;
+    z-index: 1;
+}
+
+.m-button {
+    margin: 0vh 10vw 15vh 0vw;
+    padding : 0.25rem;
+}
+
+.custom-position {
+    position : absolute;
+    margin-top: -13vh;
+}
+
+.custom-p-menu {
+    visibility: hidden;
+    font-size: 1.8em;
+    font-family: 'Kalnia';
+    top : 5vh;
+    right : 8.55vw;
+}
+
+.text-md-white {
+    color: white;
+    font-size : 0.75em;
+}
+
+.prop-position {
+    position: absolute;
+    top : 6rem;
+}
+
+.margin-prop {
+    margin: 1rem 7.5rem 1rem 2rem;
+}
+
+.back {
+    font-size: 0.55em;
+}
+
+.title-lead {
+    font-family: 'Kalnia';
+    font-size: 0.85em;
+}
+
+.price-lead {
+    font-family: 'Kalnia';
+    font-size: 0.7em;
+}
+
+.margin-img {
+    width : 60%;
+    margin: -1rem 0rem 0rem 2rem;
+}

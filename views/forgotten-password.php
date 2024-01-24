@@ -4,22 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Planimmo - Forgotten password</title>
-    <link rel="stylesheet" href="../bootstrap/BootCss/bootstrap.css">
-    <script defer src="../bootstrap/BootJs/bootstrap.bundle.js"></script>
-    <link rel="stylesheet" href="../fontawesome/all.css">
-    <link rel="stylesheet" href="../fontawesome/brands.css">
-    <link rel="stylesheet" href="../public/forgotten.css">
-    <link rel="stylesheet" href="../sweetAlert/sweetalert2.css">
+    <link rel="stylesheet" href="bootstrap/BootCss/bootstrap.css">
+    <script defer src="bootstrap/BootJs/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="fontawesome/all.css">
+    <link rel="stylesheet" href="fontawesome/brands.css">
+    <link rel="stylesheet" href="views/forgotten.css">
+    <link rel="stylesheet" href="sweetAlert/sweetalert2.css">
 </head>
 
 <body class = "root-setting">
     <div class = "mt-4 mb-md-5 ms-2 ms-sm-4 col-12">
-        <p class = "font-link ms-xl-5"><a href="../public/signin.html" class = "text-light text-decoration-none"><i class="fa fa-chevron-left ms-3 me-2"></i>Back</a></p>
+        <p class = "font-link ms-xl-5"><a href="views/signin" class = "text-light text-decoration-none"><i class="fa fa-chevron-left ms-3 me-2"></i>Back</a></p>
     </div>
 
     <main class = "d-md-flex flex-md-row">
         <div class="d-none d-md-block image-holder overflow-hidden">
-            <img class = "img-fluid img-setting" src="../image/meeting.jpg" alt="">
+            <img class = "img-fluid img-setting" src="image/signin.png" alt="">
         </div>
 
         <section class = "custom-section rounded d-table py-3 px-3 px-sm-4 px-xl-5">
@@ -41,8 +41,8 @@
         </section>
     </main>
 
-    <script src="../public/forgotten.js"></script>
-    <script src="../sweetAlert/sweetalert2.js"></script>
+    <script src="views/forgotten.js"></script>
+    <script src="sweetAlert/sweetalert2.js"></script>
 </body>
 
 </html>

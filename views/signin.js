@@ -42,7 +42,7 @@ signin.addEventListener('click', function() {
 
     setTimeout(() => {
         Swal.close();
-        window.location.href = "explore.html";
+        window.location.href = "explore";
     }, 4000);
 })
 

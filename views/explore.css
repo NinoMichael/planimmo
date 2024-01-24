@@ -1,0 +1,480 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url(../webfonts/Mulish/static/Mulish-Medium.ttf);
+}
+
+@font-face {
+    font-family:'Lexend';
+    src: url(../webfonts/Lexend/static/Lexend-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Kalnia';
+    src : url(../webfonts/Kalnia/static/Kalnia-Regular.ttf);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.root-setting {
+    font-family: 'Mulish', 'Arial';
+    font-size: 1.05em;
+    background-color: whitesmoke;
+}
+
+.bg-explore {
+    background-image: url(../image/header-house.jpg);
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #4e4c5a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height : 40vh;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #4e4c5ad7;
+    padding : 5px;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #a6a6a871;
+}
+
+.custom-m-logo {
+    margin : 0vh 45vw 5vh -5vw;
+}
+
+.bg-menu {
+    background-color: rgba(245, 245, 245, 0.959);
+    box-shadow : -1px -2px 5px 0px rgba(0, 0, 0, 0.219) inset;
+    z-index: 1;
+}
+
+.m-button {
+    margin: 0vh 10vw 5vh 0vw;
+}
+
+.custom-position {
+    position : absolute;
+}
+
+.custom-p-menu {
+    visibility: hidden;
+    font-size: 1.8em;
+    font-family: 'Kalnia';
+    top : 5vh;
+    right : 8.55vw;
+}
+
+.text-md-white {
+    color: white;
+    font-size : 0.9em;
+}
+
+.custom-bg-search {
+    background-color: whitesmoke;
+    box-shadow : 0 0 10px rgba(0, 0, 0, 0.425);
+    position : absolute;
+    top : 37vh;
+    left : 14vw;
+    width : 70%;
+    height : 6.5vh;
+    padding : 3vw;
+    outline: none;
+    border : none;
+    border-radius: 15px;
+    font-size: 0.70em;
+    text-indent: 12vw;
+}
+
+.custom-bg-search::placeholder {
+    font-size: unset;
+}
+
+.custom-m-search {
+    top : 40vh;
+    left : 20vw;
+    color : #4e4c5a;
+    cursor : pointer;
+}
+
+.custom-m-search:active {
+    transform: scale(.88);
+}
+
+.custom-m-filter {
+    top : 37.5vh;
+    left : 75vw;
+    background-color: #FF9575;
+    color : white;
+    width : 30px;
+    height : 30px;
+    border-radius: 50%;
+    padding : 6px 0px 0px 7px;
+    cursor : pointer;
+}
+
+.custom-m-filter:active {
+    background-color: #fd815b;
+    transform: scale(.90);
+}
+
+.custom-f-position {
+    position: absolute;
+    z-index : 1;
+    top : 25vh;
+    left : 9vw;
+    transform : scale(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+.custom-f-position.visible {
+    transform: scale(1);
+}
+
+.invisible {
+    display: none;
+}
+
+.custom-f-border {
+    color : #4e4c5a;
+    border : 2px solid #FF9575;
+    width : 25px;
+    height : 25px;
+    border-radius: 50%;
+    padding : 3px 0px 0px 4px;
+    cursor : pointer;
+}
+
+.custom-f-border:active {
+    transform: scale(.90);
+}
+
+.custom-filter-form {
+    font-size: 0.9em;
+}
+
+.title-form-p {
+    font-weight: bolder;
+    font-family: 'Kalnia';
+    font-size: 1.2em;
+}
+
+.custom-select {
+    width : 60%;
+    border-radius: 5px;
+    border-color:  #FF9575;
+    outline-color: #FF9575;
+    background-color: #FF9575;
+    color : white;
+    font-size: 0.9em;
+    cursor : pointer;
+}
+
+.custom-select-location {
+    top : 27vh;
+    right : -19vw;
+}
+
+.custom-check-position {
+    top : 13vh;
+    right : 12.5vw;
+}
+
+.custom-font-price {
+    font-size: 0.8em;
+    margin-top: -3vh;
+}
+
+.custom-bg-price {
+    background-color: rgb(230, 229, 229);
+    padding : 5px;
+    border-radius: 5px;
+    border : none;
+    width : 135%;
+    text-align: center;
+}
+
+.custom-minmax {
+    font-size: 1.2em;
+}
+
+.m-list {
+    text-indent : 0;
+}
+
+.custom-p-price {
+    margin: 2vh 0vw 3vh 0vw;
+    text-indent: 7vw;
+}
+
+.custom-list-room {
+    background-color : rgb(230, 229, 229);
+    padding : 2px 10px;
+    border-radius: 5px;
+}
+
+.font-card {
+    font-size: 0.75em;
+}
+
+.custom-card-btn {
+    background-color: #4e4c5a;
+    font-size: 0.8em;
+    color: white;
+    width : 100%;
+}
+
+.pagination-font {
+    font-size: 0.8em;
+}
+
+.custom-filter2 {
+    height : 120vh;
+    display : none;
+}
+
+.custom-lead-f2 {
+    font-size: 1.5em;
+    font-family: 'Kalnia';
+    font-weight : bolder;
+}
+
+.custom-font-f2 {
+    font-size: 1.05em;
+    font-family: 'Kalnia';
+    font-weight : bolder;
+}
+
+.custom-select-f2 {
+    width : 80%;
+    border-radius: 5px;
+    border-color:  #FF9575;
+    outline-color: #FF9575;
+    background-color: #FF9575;
+    color : white;
+    font-size: 0.8em;
+    cursor : pointer;
+}
+
+.custom-bg-price2 {
+    background-color: rgb(230, 229, 229);
+    padding : 5px;
+    border-radius: 5px;
+    border : none;
+    width : 150%;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.custom-m-check {
+    margin-top: 0rem;
+}
+
+.custom-btn-f2 {
+    background-color: #4e4c5a;
+    color : white;
+    font-size: 0.85em;
+}
+
+.custom-m {
+    margin : 6.5vh 0vw 0vh 6.5vw;
+}
+
+.custom-link {
+    font-size: 0.8em;
+}
+
+.custom-col {
+    display: unset;
+}
+
+.custom-m-city1 {
+    margin-top: -0.3rem;
+}
+
+.custom-m-city2 {
+    margin-top: -1rem;
+}
+
+@media (min-width : 360px) {
+    .custom-m-logo {
+        margin : 0vh 45vw 5vh -5vw;
+    }
+    .custom-m-search {
+        top : 40vh;
+        left : 19vw;
+    }
+}
+
+@media (min-width : 576px) {
+    .custom-m-logo {
+        margin : 0vh 60vw 5vh -5vw;
+    }
+    .custom-p-menu {
+        visibility: visible;
+        width : 20%;
+        top : -5vh;
+        right : -45vw;
+    }
+    .custom-bg-search {
+        top : 36vh;
+        left : 24vw;
+        width : 50%;
+        height : 7.5vh;
+        padding : 3vw;
+        border-radius: 20px;
+        text-indent: 7vw;
+    }
+    .custom-m-search {
+        top : 39.5vh;
+        left : 28vw;
+    }
+    .custom-m-filter {
+        top : 37vh;
+        left : 68vw;
+    }
+    .custom-select-location {
+        top : 27vh;
+        right : -15vw;
+    }
+    .custom-bg-price {
+        width : 100%;
+    }
+    .m-list {
+        text-indent : 3vw;
+    }
+}
+
+@media (min-width : 768px) {
+    .custom-m-logo {
+        margin : 0vh 0vw 15vh 10vw;
+        width : 120px;
+    }
+    .custom-position {
+        position: unset;
+    }
+    .bg-menu {
+        background : none;
+        box-shadow: none;
+        margin-bottom: 15vh;
+    }
+    .custom-p-menu {
+        background : transparent;
+        top : 12vh;
+        right : 0vw;
+        width : 30%;
+    }
+    .bg-explore {
+        height : 40vh;
+    }
+    .nav-pills .nav-link.active {
+        background-color: #4e4c5ad7;
+        padding : 15px;
+    }
+    .text-md-white {
+        color: white !important;
+        font-size: 1em;
+    }
+    .custom-m-search {
+        top : 39.5vh;
+        left : 27vw;
+    }
+    .custom-m-filter {
+        top : 37.5vh;
+        left : 68vw;
+    }
+    .custom-check-position {
+        top : 11.5vh;
+        right : 12.5vw;
+    }
+    .custom-select-location {
+        top : 23.5vh;
+        right : -11vw;
+    }
+}
+
+@media (min-width : 992px) {
+    .bg-explore {
+        height : 45vh;
+    }
+    .custom-p-menu {
+        top : 13vh;
+    }
+    .custom-bg-search {
+        top : 40vh;
+        left : 28vw;
+        width : 50%;
+        height : 2vh;
+        padding : 2.4vw;
+        border-radius: 30px;
+        text-indent: 4vw;
+        font-size: 0.8em;
+    }
+    .custom-m-search {
+        top : 43.5vh;
+        left : 73.5vw;
+    }
+    .custom-m-filter {
+        visibility: collapse;
+    }
+    .custom-filter2 {
+        display: block;
+        height: 143vh;
+    }
+    .pagination-font {
+        font-size: 1em;
+    }
+    .custom-col {
+        width : 22%;
+        display: block;
+    }
+}
+
+@media (min-width : 1200px) {
+    .custom-m-logo {
+        margin : 0vh 0vw 20vh 10vw;
+        width : 140px;
+    }
+    .bg-explore {
+        height : 55vh;
+    }
+    .custom-p-menu {
+        font-size: 2em;
+        top : 15vh;
+        right : 3vw;
+        width : 30%;
+    }
+    .bg-menu {
+        background : none;
+        box-shadow: none;
+        margin: 0vh 15vh 20vh 0vh;
+    }
+    .custom-bg-search {
+        width : 40%;
+        top : 50vh;
+        left : 30vw;
+        text-indent: 2.6vw;
+        font-size: 0.85em;
+    }
+    .custom-m-search {
+        top : 54vh;
+        left : 66vw;
+    }
+    .custom-col {
+        width : 23%;
+        display: block;
+    }
+    .custom-filter2 {
+        height : 150vh;
+    }
+    .custom-m-check {
+        margin-top: 0.5rem;
+    }
+    .custom-m {
+        margin : 7.5vh 0vw 0vh 3.5vw;
+    }
+}
+

@@ -82,24 +82,324 @@ html {
 }
 
 .margin-prop {
-    margin: 1rem 7.5rem 1rem 2rem;
+    margin: 1rem 3rem 1rem 2rem;
 }
 
 .back {
-    font-size: 0.55em;
+    font-size: 0.75em;
 }
 
 .title-lead {
     font-family: 'Kalnia';
-    font-size: 0.85em;
+    font-size: 1.1em;
 }
 
 .price-lead {
     font-family: 'Kalnia';
-    font-size: 0.7em;
+    font-size: 0.85em;
 }
 
 .margin-img {
-    width : 60%;
-    margin: -1rem 0rem 0rem 2rem;
+    width : 75%;
+    margin: -1rem 0rem 0rem 3rem;
+}
+
+.custom-expand {
+    width : 80%;
+    margin: 9rem 0rem 0rem 1.7rem;
+}
+
+.panel {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width : 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    flex : 0.5;
+    height : 20vh;
+    margin-left: 0.4rem;
+    transition: flex 0.5s ease-in;
+}
+
+.panel.active {
+    flex : 5;
+}
+
+.bg-gray {
+    background-color: #4e4c5a;
+}
+
+.custom-feature {
+    width : 90%;
+    border-radius: 30px;
+    height: 2.8rem;
+    margin: 1.5rem 0rem 0rem 1rem;
+}
+
+.p-feature {
+    font-size: 0.7em;
+}
+
+.btn-feature {
+    font-size: 0.85em;
+}
+
+.img-profile {
+    width : 50px;
+    height : 50px;
+    border-radius: 50%;
+    border : 2px solid white;
+}
+
+.profile-m {
+    margin : 1.5rem 0rem 0rem 3.5rem;
+}
+
+.p-date {
+    font-size: 0.7em;
+    margin-top : -1.2rem;
+}
+
+.intro {
+    font-size: 0.85em;
+    width : 80%;
+    margin: 0.5rem 0rem 0rem 2.6rem;
+}
+
+.title-map {
+    margin: 0rem 0rem 0rem 2.7rem;
+}
+
+@media (min-width : 440px) {
+    .margin-prop {
+        margin: 1rem 3rem 1rem 4.2rem;
+    }
+    .margin-img {
+        margin: -1rem 0rem 0rem 4rem;
+    }
+    .custom-expand {
+        margin: 11rem 0rem 0rem 2.5rem;
+    }
+    .panel {
+        flex : 0.9;
+    }
+    .panel.active {
+        flex : 6;
+    }
+}
+
+@media (min-width : 576px) {
+    .text-md-white {
+        font-size : 0.9em;
+    }
+    .custom-m-logo {
+        margin : -10vh 65vw 5vh -5vw;
+        width : 90px;
+    }
+    .margin-prop {
+        margin : 1rem 6.5rem 1rem 6.5rem;
+    }
+    .margin-img {
+        width : 65%;
+        margin: -1rem 0rem 0rem 6.5rem;
+    }
+    .custom-expand {
+        width : 65%;
+        margin: 14.2rem 0rem 0rem 6rem;
+    }
+    .panel {
+        flex : 2;
+        margin-left: 0.3rem;
+    }
+    .panel.active {
+       flex : 8; 
+    }
+    .title-lead {
+        font-size: 1.3em;
+    }
+    .price-lead {
+        font-family: 'Kalnia';
+        font-size: 0.95em;
+    }
+    .back {
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width : 650px) {
+    .margin-prop {
+        margin : 1rem 8.5rem 1rem 8rem;
+    }
+    .margin-img {
+        width : 60%;
+        margin: -1rem 0rem 0rem 7.8rem;
+    }
+    .custom-expand {
+        margin: 14rem 0rem 0rem 6rem;
+    }
+}
+
+@media (min-width : 768px) {
+    .custom-m-logo {
+        margin : -5vh 0vw 15vh 10vw;
+        width : 100px;
+    }
+    .custom-position {
+        margin-top: -0.5rem;
+        position: unset;
+    }
+    .bg-menu {
+        background : none;
+        box-shadow: none;
+        margin-bottom: 15vh;
+    }
+    .bg-explore {
+        height : 40vh;
+    }
+    .nav-pills .nav-link.active {
+        background-color: #4e4c5ad7;
+        padding : 15px;
+    }
+    .text-md-white {
+        color: white !important;
+        font-size: 1em;
+    }
+    .margin-prop {
+        margin : 2rem 10.5rem 1rem 11rem;
+    }
+    .margin-img {
+        width : 55%;
+        margin: -1rem 0rem 0rem 11rem;
+    }
+    .custom-expand {
+        width : 150%;
+        margin: 16rem 0rem 0rem 8.5rem;
+    }
+    .panel {
+        margin-left: 0.05rem;
+        flex : unset;
+        width : 80px;
+        margin-left: 1rem;
+        height : 80px;
+        border-radius: 4px;
+    }
+    .panel.active {
+        flex : unset;
+        border: 4px solid rgba(63, 60, 230, 0.692);
+    }
+}
+
+@media (min-width : 840px) {
+    .margin-prop {
+        margin : 2rem 10.5rem 1rem 13rem;
+    }
+    .panel {
+        width : 100px;
+    }
+    .custom-expand {
+        margin: 18rem 0rem 0rem 8rem;
+    }
+    .margin-img {
+        margin: -1rem 0rem 0rem 13rem;
+    }
+}
+
+@media (min-width : 992px) {
+    .margin-prop {
+        margin : 2rem 11rem 1.5rem 9rem;
+    }
+    .margin-img {
+        margin: -1.5rem 0rem 0rem 14.5rem;
+    }
+    .title-lead {
+        font-size: 1.5em;
+    }
+    .price-lead {
+        font-size: 1.15em;
+    }
+    .custom-expand {
+        margin: 21.7rem 0rem 0rem 4.3rem;
+    }
+    .panel {
+        width : 150px;
+    }
+}
+
+@media (min-width : 1075px) {
+    .margin-prop {
+        margin : 2rem 4rem 1.5rem 13rem;
+    }
+    .margin-img {
+        width : 50%;
+        margin: -1.5rem 0rem 0rem 20rem;
+    }
+    .custom-expand {
+        margin: 19.7rem 0rem 0rem 7rem;
+    }
+    .custom-img {
+        width : 680px;
+        height: 310px;
+    }
+}
+
+@media (min-width : 1200px) {
+    .custom-m-logo {
+        margin : 0vh 0vw 20vh 10vw;
+        width : 140px;
+    }
+    .bg-explore {
+        height : 55vh;
+    }
+    .custom-p-menu {
+        font-size: 2em;
+        top : 15vh;
+        right : 3vw;
+        width : 30%;
+    }
+    .bg-menu {
+        background : none;
+        box-shadow: none;
+        margin: 0vh 15vh 20vh 0vh;
+    }
+    .margin-prop {
+        margin : 5rem 6rem 1.5rem 15.5rem;    
+    }
+    .margin-img {
+        width : 50%;
+        margin : -1.5rem 0rem 0rem 22.5rem;
+    }
+    .custom-img {
+        width : 690px;
+        height : 350px;
+    }
+    .custom-expand {
+        margin: 19.5rem 0rem 0rem 11rem;
+    }
+}
+
+@media (min-width : 1365px) {
+    .margin-prop {
+        margin : 6.5rem 6rem 1.5rem 15.5rem;  
+    }
+    .title-lead {
+        font-size: 1.8em;
+    }
+    .price-lead {
+        font-size: 1.3em;
+    }
+    .margin-img {
+        margin : -1.5rem 0rem 0rem 27rem;
+    }
+    .custom-img {
+        width : 700px;
+        height : 370px;
+    }
+    .custom-expand {
+        margin: 19.5rem 0rem 0rem 11rem;    
+    }
+    .panel {
+        width : 200px;
+        margin-left: 0.4rem;
+    }
 }

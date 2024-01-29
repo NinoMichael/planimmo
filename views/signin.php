@@ -25,7 +25,7 @@
         </div>
 
         <section class = "custom-section rounded d-table py-3 px-3 px-sm-4 px-xl-5">
-            <form action = "" method="post">
+            <form action = "login.php" method="post">
                 <h2 class="h4 text-center title-lead text-light mb-4">Sign in to Planimmo</h2>
                 <div class="mb-3 position-relative">
                     <i class="fa fa-user text-gray fs-6 me-4 position-absolute mt-2 ms-3 me-4"></i>

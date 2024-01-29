@@ -171,6 +171,12 @@ html {
     margin: 0rem 0rem 0rem 2.7rem;
 }
 
+#carte {
+    width : 17rem;
+    height : 17rem;
+    margin : 1rem 0rem 0rem 2.5rem;
+}
+
 @media (min-width : 440px) {
     .margin-prop {
         margin: 1rem 3rem 1rem 4.2rem;
@@ -186,6 +192,14 @@ html {
     }
     .panel.active {
         flex : 6;
+    }
+    .custom-feature {
+        width : 85%;
+        margin: 1.5rem 0rem 0rem 2.5rem;
+    }
+    #carte {
+        width : 22rem;
+        height : 19rem;
     }
 }
 
@@ -225,6 +239,34 @@ html {
     .back {
         font-size: 0.8em;
     }
+    .custom-feature {
+        height : 3.5rem;
+        padding-left: 1rem;
+    }
+    .p-feature {
+        font-size: 0.87em;
+    }
+    .profile-m {
+        margin : 2rem 0rem 0rem 5.5rem;
+    }
+    .img-profile {
+        width : 70px;
+        height : 70px;
+        border-radius: 50%;
+    }
+    .intro {
+        font-size: 0.95em;
+        width : 75%;
+        margin: 1rem 0rem 0rem 4rem;
+    }
+    .title-map {
+        margin: 0.5rem 0rem 0rem 4rem;
+    }
+    #carte {
+        width : 26rem;
+        height: 19rem;
+        margin-left: 4rem;
+    }
 }
 
 @media (min-width : 650px) {
@@ -237,6 +279,24 @@ html {
     }
     .custom-expand {
         margin: 14rem 0rem 0rem 6rem;
+    }
+    .custom-feature {
+        padding-top: 0.75rem;
+    }
+    .btn-feature {
+        font-size: 0.85em;
+    }
+    .profile-m {
+        margin : 2rem 0rem 0rem 6rem;
+    }
+    .intro {
+        font-size: 0.95em;
+        width : 80%;
+        margin: 1rem 0rem 0rem 4rem;
+    }
+    #carte {
+        width : 32rem;
+        height : 20rem;
     }
 }
 
@@ -288,6 +348,24 @@ html {
         flex : unset;
         border: 4px solid rgba(63, 60, 230, 0.692);
     }
+    .custom-feature {
+        margin-left : 4.5rem; 
+    }
+    .profile-m {
+        margin : 2.5rem 0rem 0rem 3rem;
+    }
+    .intro {
+        width : 45%;
+        margin-left: 3rem;
+    }
+    .title-map {
+        margin: -4rem 0rem 0rem 2.5rem;
+    }
+    #carte {
+        width : 20rem;
+        height : 30rem;
+        margin: 2rem 0rem 0rem 2rem;
+    }
 }
 
 @media (min-width : 840px) {
@@ -323,6 +401,10 @@ html {
     }
     .panel {
         width : 150px;
+    }
+    .custom-feature {
+        width : 70%;
+        margin: 3rem 0rem 0rem 9rem;
     }
 }
 

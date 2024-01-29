@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="fontawesome/all.css">
     <link rel="stylesheet" href="fontawesome/brands.css">
     <link rel="stylesheet" href="views/property.css">
+    <link rel="stylesheet" href="leaflet/leaflet.css">
 </head>
 
 <body class = "root-setting">
@@ -73,7 +74,7 @@
                 <p class = "col-3"><i class="fa fa-leaf me-2"></i>Garden</p>
             </div>
             <div>
-                <a href="" class="btn bg-gray text-light btn-feature rounded mt-1 me-3">Buy</a>
+                <a href="" class="btn bg-gray text-light btn-feature rounded mt-1 mt-sm-0 me-3">Buy</a>
             </div>
         </div>
 
@@ -81,7 +82,7 @@
             <div class = "profile-m">
                 <img class= "img-fluid img-profile" src="image/todisoa.jpg" alt="">
             </div>
-            <div class = "ms-3 mt-4">
+            <div class = "ms-3 mt-4 mt-sm-5">
                 <p class = "fw-bolder text-light fs-6">Tiavina Todisoa</p>
                 <p class = "text-light p-date">02 Mars 2024</p>
             </div>
@@ -89,19 +90,23 @@
 
         <div class = "d-md-flex flex-md-row">
             <article class = "intro">
-                <p class= "text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quaerat beatae tempore eum 
-                    facere, cum praesentium consectetur animi laudantium. Nam illum nobis sunt quidem repellendus laborum, autem, reprehenderit corporis eum quae perferendis a consectetur!
-                    Unde maxime, odio asperiores cupiditate optio molestias, consequatur cumque veritatis in enim dicta ab numquam ad?
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo laboriosam dolor, aspernatur fuga accusantium cum doloremque deleniti, reiciendis ducimus adipisci nobis optio eligendi saepe aut, qui natus eius modi corporis dolores! Aut, accusantium dolore. Voluptas soluta cupiditate magni repellat quos.</p>
+                <p class= "text-light">
+                This modern and stylish home, available for sale, embodies contemporary living with its sleek design and cutting-edge features. The property is a two-story residence with a total floor area of 250 square meters, offering spacious and open interiors that seamlessly blend functionality with aesthetics.
+                The house boasts large floor-to-ceiling windows throughout, allowing ample natural light to flood the living spaces and providing stunning views of the surrounding landscape. The state-of-the-art kitchen is equipped with top-of-the-line appliances, granite countertops, and a stylish island, making it a focal point for both culinary enthusiasts and those who appreciate modern design.
+                With 3 bedrooms, including a master suite with a luxurious ensuite bath, the house is designed to cater to the comfort and privacy of its inhabitants. Smart home technology is integrated, offering features such as climate control, security systems, and automated lighting for an enhanced living experience.
+                Conveniently located near amenities and with easy access to transportation, this modern home represents the epitome of contemporary luxury, offering a harmonious blend of comfort, style, and advanced technology. Perfect for those seeking a sophisticated and environmentally conscious living space, this property sets a new standard for modern urban living.
+                </p>
             </article>
             <div>
                 <h3 class = "d-block d-md-none h6 fw-bolder text-light title-map">Location on map</h3>
-                <div></div>
+                <h3 class = "d-none d-md-block h5 fw-bolder text-light title-map">Location on map</h3>
+                <div id = "carte" class = "rounded" style = "z-index : 6;"></div>
             </div>
         </div>
     </main>
 
     <script src="bootstrap/BootJs/bootstrap.bundle.js"></script>
+    <script src="leaflet/leaflet.js"></script>
     <script src="views/property.js"></script>
     
 </body>
